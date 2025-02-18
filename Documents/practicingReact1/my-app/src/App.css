@@ -1,0 +1,142 @@
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #000000;
+  color: #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.result-display {
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #000000;
+  border-radius: 5px;
+}
+
+.input-field {
+  width: 89%;
+
+  padding: 10px;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.number-buttons, .operation-buttons, .reset-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.operation-buttons {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.number-button, .operation-button, .reset-button {
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #2b2020;
+  color: rgb(215, 212, 212);
+  transition: background 0.3s;
+
+}
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #020202;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.result-display {
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #000000;
+  border-radius: 5px;
+}
+
+.input-field {
+  width: 89%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+}
+
+.number-buttons, .operation-buttons, .reset-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.operation-buttons {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.number-button, .reset-button {
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: #333;
+  color: rgb(245, 241, 241);
+  transition: background 0.3s;
+}
+
+
+.operation-button{
+  padding: 10px;
+  font-size: 1.7em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+background-color: orange;
+  color: rgb(221, 210, 210);
+  transition: background 0.3s;
+}
+
+
+ .operation-button {
+  background:orange
+}
+
+.reset-button{
+background-color: #5b5b5b;
+}
+
+.number-button:hover, .operation-button:hover, .reset-button:hover {
+  background: #555;
+}
+
+.reset-buttons {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.number-button:hover, .operation-button:hover, .reset-button:hover {
+  background: #555;
+}
+
+.reset-buttons {
+  grid-template-columns: repeat(2, 1fr);
+}
